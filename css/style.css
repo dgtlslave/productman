@@ -1,0 +1,247 @@
+body{
+
+}
+/* Logo */
+.logo h2 {
+	font-family: 'Roboto', sans-serif;
+	color: #2d2d2d;
+	font-size: 48px;
+	line-height: 27px;
+	font-weight: 900;
+	text-align: left;
+}
+
+/* Navigation */
+.nav {
+
+}
+.nav-item .ul {
+	text-indent: 20px;
+	margin-left: 160px;
+}
+.nav-item .ul li  {
+	list-style-type: none;
+	float: left;
+	padding: 25px 0 0 0;
+}
+/*.nav-item .ul li:nth-last-child(3)  {
+	padding: 25px 0 0 0;
+}*/
+.nav-item .ul li a {
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	color: #2d2d2d;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+}
+/* Header slider*/
+.slider {
+    margin-top: -65px;
+}
+.ba-header__black-white {
+	position: relative;
+	z-index: 1;
+}
+.ba-header__black-white .h1 {
+	font-family: 'Raleway', sans-serif;
+	display: block;
+	text-align: left;
+	color: #2d2d2d;
+	font-size: 150px;
+	line-height: 150px;
+	font-weight: 900;
+	max-width: 100%;
+	text-align: right;
+}
+
+.ba-header__text {
+	font-family: 'Roboto', sans-serif;
+	color: #2d2d2d;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 300;
+	text-align: right;
+	margin-top: -60px;
+}
+p .view-project {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	color: #e10011;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 700;
+	text-decoration: none;
+	text-align: right;
+}
+/*.ba-header__headphone {
+	background: url(../img/headphone.png) center center no-repeat transparent;
+	background-size: contain;
+	display: block;
+	min-height: 491px;
+	position: relative;
+	z-index: 100;
+}*/
+.headphone-image {
+	display: block;
+	position: relative;
+	z-index: 1;
+	padding-top: 110px;
+	padding-left: 98px;
+}
+.ba-header__headphone::after {
+	content: '';
+	background: url(../img/gradient.png) center no-repeat;
+	background-size: contain;
+	display: block;
+	width: 947px;
+	height: 852px;
+	position: absolute;
+	top: 0;
+left: 41%;
+}
+/* Dots */
+.dots {
+	width: 11px;
+	height: 11px;
+	background-color: #2d2d2d;
+	border-radius: 50%;
+	border-color: #2d2d2d;
+	margin: 88px 9px 103px 0;
+}
+.slide-changer p {
+	display: inline-block;
+}
+.slide-changer {
+	text-align: center;
+}
+.first {
+	background-color: #e10011;
+	border-color: #e10011;
+}
+
+/*.ba-header__headphone {
+	background: url(../img/headphone.png) center center no-repeat;
+	background-size: contain;
+	width: 365px;
+	height: 491px;
+}*/
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1292px;
+	background-color: #eeeeee;
+}
+
+/* Link title */
+
+.featured-product div .h2 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #2d2d2d;
+	font-size: 48px;
+	font-weight: 900;
+	margin: 114px 0 -7px 0;
+}
+.featured-product div p {
+	text-align: center;
+}
+.featured-product div .underline_text {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #2d2d2d;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 323px 73px 323px;
+}
+/* Link section */
+
+.featured-color {
+	background-color: #fff;
+	border-radius: 8px;
+	width: 100%;
+}
+/*.first-line-picture {
+	padding: 0 72px 0 72px;
+}*/
+.first-line-picture .beats-speaker {
+	padding: 0 36px 0 72px;
+}
+.first-line-picture .beats-headphones {
+	padding: 0 71px 0 0;
+}
+.first-line-picture .first-pic .beats-speaker {
+	width: 100%;
+  height: 387px;
+}
+.first-line-picture .second-pic .beats-headphones {
+	width: 100%;
+	height: 387px;
+}
+/*.second-line-picture .first-pic .box1 {
+  width: 100%;
+	height: 387px;
+	padding-left: 65px;
+}
+.second-line-picture .second-pic .box2 {
+	width: 328px;
+	height: 387px;
+	margin-left: 39px;
+}
+.second-line-picture .third-pic .box2 {
+	width: 328px;
+	height: 387px;
+}*/
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
