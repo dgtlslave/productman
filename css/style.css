@@ -100,7 +100,7 @@ p .view-project {
 	height: 852px;
 	position: absolute;
 	top: 0;
-left: 41%;
+	left: 41%;
 }
 /* Dots */
 .dots {
@@ -157,6 +157,26 @@ left: 41%;
 	font-weight: 400;
 	margin: 0 323px 73px 323px;
 }
+
+/* Featured Product - container size */
+
+.ba-row .first-line-picture, .ba-row .second-line-picture {
+	width: 1056px;
+	margin: 0 auto;
+}
+.ba-row .first-line-picture {
+	margin-bottom: 35px;
+}
+.first-line-picture .first-pic .beats-speaker {
+	min-width: 692px;
+}
+.first-line-picture .second-pic .beats-headphones {
+	min-width: 328px;
+	margin-left: 35px;
+}
+.second-line-picture .second-pic .box3, .second-line-picture .third-pic .box2 {
+	margin-left: 35px;
+}
 /* Link section */
 
 .featured-color {
@@ -167,35 +187,33 @@ left: 41%;
 /*.first-line-picture {
 	padding: 0 72px 0 72px;
 }*/
-.first-line-picture .beats-speaker {
+/*.first-line-picture .beats-speaker {
 	padding: 0 36px 0 72px;
 }
 .first-line-picture .beats-headphones {
 	padding: 0 71px 0 0;
-}
-.first-line-picture .first-pic .beats-speaker {
+} 
+*/
+.first-line-picture .first-pic .beats-speaker, .first-line-picture .second-pic .beats-headphones {
 	width: 100%;
-  height: 387px;
+    height: 387px;
 }
-.first-line-picture .second-pic .beats-headphones {
-	width: 100%;
-	height: 387px;
-}
-/*.second-line-picture .first-pic .box1 {
-  width: 100%;
-	height: 387px;
-	padding-left: 65px;
-}
-.second-line-picture .second-pic .box2 {
-	width: 328px;
-	height: 387px;
-	margin-left: 39px;
-}
-.second-line-picture .third-pic .box2 {
-	width: 328px;
-	height: 387px;
-}*/
 
+
+/* Second line picture */
+
+.second-line-picture .first-pic, .second-line-picture .second-pic, .second-line-picture .third-pic {
+  	width: 327px;
+	height: 387px;
+}
+.second-line-picture .second-pic, .second-line-picture .third-pic {
+  	margin-left: 35px;
+}
+.box1, .box2, .box3 {
+	width: 100%;
+	height: 387px;
+	border-radius: 8px;
+}
 
 
 /* Typography */
